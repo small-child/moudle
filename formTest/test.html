@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="布尔教育 http://www.itbool.com" />
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+</head>
+    <body>
+    	<ul class="anserdh" id="topmenu">
+	      <li class="qhbg"><a href="javascript:" >积分榜</a></li>
+	      <li><a href="javascript:">回答榜 </a></li>
+	      <li><a href="javascript:" >提问榜</a></li>
+	      <li><a href="javascript:" >满意榜</a></li>
+		</ul>
+	<script type="text/javascript">
+		$(function(){
+			$('.anserdh li a').click(function(){
+			        //$('.anserdh li').removeClass('qhbg');
+			        //$(this).parent().addClass('qhbg');
+			        alert(this.text);
+			   })
+			})
+	</script>
+    </body>
+</html>
